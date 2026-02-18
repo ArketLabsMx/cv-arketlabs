@@ -10,12 +10,12 @@ const experiences = [
     position: "Founder & CEO",
     company: "ArketLabs",
     location: "Mérida, Yucatán",
-    period: "2024 - Presente",
+    period: "2024 – Presente",
     achievements: [
-      "Fundé laboratorio de Sistemas de Inteligencia Comercial especializado en Conversational AI",
-      "Desarrollé ARCIA: sistema conversacional con +56 nodos, integración OpenAI, Airtable, Google Docs",
-      "Implementé metodología Dale Carnegie codificada en flujos de n8n",
-      "Stack: n8n, Docker, OpenAI API, Claude API, PostgreSQL, Airtable",
+      "Diseñé y lancé ArketLabs: laboratorio de Revenue Systems que integra IA conversacional, automatización y datos para transformar operaciones comerciales.",
+      "Creé ARCIA: agente conversacional con +56 nodos, integración OpenAI, Airtable, Google Calendar y CRM. Orquestado en n8n.",
+      "Metodología Dale Carnegie codificada en flujos autónomos de prospección, calificación y cierre.",
+      "Stack: n8n · Docker · OpenAI API · Claude API · PostgreSQL · Airtable · Pinecone",
     ],
   },
   {
@@ -24,12 +24,11 @@ const experiences = [
     position: "Capital & Real Estate Advisory",
     company: "Independiente",
     location: "Guadalajara → Yucatán",
-    period: "2021 - Presente",
+    period: "2021 – Presente",
     achievements: [
-      "Asesoré inversionistas nacionales e internacionales en preventa de proyectos en Yucatán",
-      "Análisis de mercado financiero y macroeconómico",
-      "100% de acierto en recomendaciones - todas rentables",
-      "Incremento sostenido del ticket promedio tres años consecutivos",
+      "Estructuré operaciones de inversión inmobiliaria con análisis macroeconómico y financiero.",
+      "100% de acierto en recomendaciones — todas generaron retorno.",
+      "Incremento sostenido del ticket promedio por 3 años consecutivos.",
     ],
   },
   {
@@ -38,36 +37,34 @@ const experiences = [
     position: "Founder",
     company: "HUMAYUHUM",
     location: "",
-    period: "2017 - 2020",
+    period: "2017 – 2020",
     achievements: [
-      "Fundé agencia de marketing digital con equipo distribuido globalmente",
-      "Apliqué ventas consultivas al entorno digital",
+      "Fundé agencia de marketing digital con operaciones distribuidas globalmente.",
+      "Diseñé procesos de venta consultiva digital para empresas B2B.",
     ],
   },
   {
     id: "jeunesse",
     featured: false,
-    position: "Líder de Equipo Comercial",
+    position: "Director de Estructura Comercial",
     company: "Jeunesse Global",
     location: "",
-    period: "2013 - 2017",
+    period: "2013 – 2017",
     achievements: [
-      "Formé y lideré red de +500 personas en múltiples países",
-      "Liderazgo remoto y equipos multiculturales",
-      "Viajes de incentivo: Jamaica, Las Vegas, California, Panamá",
+      "Formé y lideré estructura comercial de +500 personas en múltiples países.",
+      "Implementé sistemas de liderazgo remoto y equipos multiculturales.",
     ],
   },
   {
     id: "metlife",
     featured: false,
-    position: "Gerente Asociado",
+    position: "Gerente de Desarrollo Comercial",
     company: "MetLife México",
     location: "",
-    period: "2011 - 2013",
+    period: "2011 – 2013",
     achievements: [
-      "Procesos de reclutamiento y formación para Agentes de Seguros",
-      "Manuales y sistemas con metodologías replicables",
-      "Especialista en planificación fiscal y Planes de Retiro",
+      "Diseñé sistemas de reclutamiento, formación y activación para Agentes financieros.",
+      "Creé manuales operativos con metodologías replicables de venta consultiva.",
     ],
   },
   {
@@ -76,45 +73,44 @@ const experiences = [
     position: "Ejecutivo → Gerente Comercial #1 Zona Occidente",
     company: "ING Financial Group",
     location: "",
-    period: "2005 - 2011",
+    period: "2005 – 2011",
     achievements: [
-      "Transformé equipo de bajo rendimiento en #1 de la Zona Occidente",
-      "Estrategias exitosas en segmento de retiro e inversión",
-      "Sistema de servicio post-venta que mantuvo carteras a largo plazo",
+      "Transformé equipo comercial de bajo rendimiento en el #1 de la Zona Occidente.",
+      "Diseñé estrategia de retención y servicio post-venta que mantuvo carteras a largo plazo.",
     ],
   },
 ];
 
 const skills = [
   {
-    id: "ai",
-    title: "Conversational AI",
-    tags: ["Diseño de flujos conversacionales", "NLP", "Prompt Engineering", "OpenAI API", "Claude API", "LLMs"],
+    id: "transformation",
+    title: "Transformación Comercial",
+    tags: ["Revenue Systems", "Estructuras de Ventas Autónomas", "Sales Process Design", "Venta Consultiva B2B"],
   },
   {
     id: "automation",
-    title: "Automatización",
-    tags: ["n8n (self-hosted)", "Webhooks", "REST APIs", "Docker", "Integración de sistemas"],
+    title: "Automatización & IA",
+    tags: ["n8n (self-hosted)", "Conversational AI", "Prompt Engineering", "OpenAI API", "Claude API", "Agentes Autónomos"],
   },
   {
     id: "data",
-    title: "Datos",
-    tags: ["Airtable", "PostgreSQL", "Google Docs API", "Google Sheets", "Slack API", "Webhooks", "JSON", "APIs REST", "Análisis financiero", "CRM", "Pinecone", "Vector databases"],
+    title: "Integración & Datos",
+    tags: ["Airtable", "PostgreSQL", "Pinecone", "CRM", "APIs REST", "Webhooks", "Google Workspace APIs"],
   },
   {
-    id: "methodology",
-    title: "Metodologías",
-    tags: ["Venta Consultiva", "Dale Carnegie", "AI-assisted development", "Orquestación de agentes IA"],
+    id: "strategy",
+    title: "Estrategia & Metodologías",
+    tags: ["Dale Carnegie (codificada en IA)", "Revenue Operations", "AI-Assisted Development", "Orquestación de Agentes"],
   },
 ];
 
 const certifications = [
-  "LIMRA: Gerente Certificado de Asesores Financieros",
-  "Cédula A - CNSF",
-  "Venta Consultiva",
-  "Empowerment en Gestión Gerencial",
+  "LIMRA — Gerente Certificado de Asesores Financieros",
+  "CNSF — Cédula A",
+  "Venta Consultiva Avanzada",
   "IA y Automatización Comercial",
-  "Marketing Digital",
+  "Marketing Digital Estratégico",
+  "Empowerment en Gestión Gerencial",
 ];
 
 export default function Home() {
@@ -174,7 +170,7 @@ export default function Home() {
                 className="mb-6 bg-[#a4c3b2]/20 text-[#a4c3b2] border-[#a4c3b2]/30 hover:bg-[#a4c3b2]/30 no-default-hover-elevate no-default-active-elevate"
                 data-testid="badge-available"
               >
-                Disponible para proyectos
+                Open to Strategic Projects
               </Badge>
 
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[56px] font-bold leading-tight mb-4">
@@ -182,14 +178,17 @@ export default function Home() {
                 <span className="text-[#a4c3b2] italic">Flores</span>
               </h1>
 
-              <p className="text-lg md:text-xl lg:text-[22px] text-white/80 mb-6">
-                Arquitecto de Inteligencia Comercial
+              <p className="text-lg md:text-xl lg:text-[22px] text-white/80 mb-2">
+                Director de Transformación Digital Comercial
+              </p>
+              <p className="text-base md:text-lg text-[#a4c3b2]/80 mb-6">
+                Arquitecto de Revenue Systems & AI Automation
               </p>
 
               <p className="text-base md:text-lg text-white/60 mb-8 max-w-xl mx-auto md:mx-0">
-                Ejecutivo comercial con +20 años en ventas consultivas de alto nivel. 
-                Desde 2022 construyo sistemas de Conversational AI que automatizan lo que yo hacía manualmente. 
-                Fundador de ArketLabs, creador de ARCIA.
+                +20 años diseñando estructuras comerciales de alto rendimiento.
+                Hoy integro IA conversacional, automatización y datos en sistemas que generan revenue de forma autónoma.
+                Fundador de ArketLabs. Creador de ARCIA.
               </p>
 
               <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
@@ -220,7 +219,7 @@ export default function Home() {
                 <div className="absolute inset-0 rounded-full bg-[#a4c3b2]/20 blur-xl scale-110" />
                 <img
                   src={emmanuelPhoto}
-                  alt="Emmanuel González Flores - Fundador de ArketLabs, Arquitecto de Inteligencia Comercial"
+                  alt="Emmanuel González Flores - Director de Transformación Digital Comercial, Fundador de ArketLabs"
                   className="relative w-[180px] h-[180px] md:w-[280px] md:h-[280px] rounded-full object-cover border-2 border-white/20 shadow-2xl"
                   style={{ objectPosition: "center 45%" }}
                   data-testid="img-profile-photo"
@@ -349,7 +348,7 @@ export default function Home() {
       <section id="educacion" className="py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl md:text-3xl font-bold mb-12 text-center">
-            Educación
+            Educación y Certificaciones
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -359,11 +358,11 @@ export default function Home() {
               data-testid="card-education"
             >
               <h3 className="text-lg md:text-xl font-semibold text-white mb-2">
-                Licenciado en Contaduría Pública
+                Licenciatura en Contaduría Pública
               </h3>
               <p className="text-[#a4c3b2] mb-2">Especialidad en Finanzas</p>
-              <p className="text-white/80 mb-1">Tecnológico de Monterrey, Campus Ciudad Juárez</p>
-              <p className="text-white/60 text-sm">1998 - 2006</p>
+              <p className="text-white/80 mb-1">Tecnológico de Monterrey — Campus Ciudad Juárez</p>
+              <p className="text-white/60 text-sm">1998 – 2006</p>
             </Card>
 
             {/* Certifications */}
@@ -390,15 +389,15 @@ export default function Home() {
       {/* Footer CTA */}
       <section className="py-16 md:py-24 bg-white/5 border-t border-white/10">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6">
-            ¿Tienes un proyecto en mente?
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 max-w-2xl mx-auto">
+            ¿Buscas transformar tu estructura comercial con IA y automatización estratégica?
           </h2>
           <a
             href="mailto:emmanuel@arketlabs.com"
             className="inline-flex items-center justify-center h-14 px-8 bg-[#facc15] text-black font-semibold rounded-[14px] hover:bg-[#facc15]/90 transition-colors"
             data-testid="button-iniciar-conversacion"
           >
-            Iniciar conversación
+            Agendar conversación estratégica
           </a>
         </div>
       </section>
